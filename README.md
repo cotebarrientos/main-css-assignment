@@ -4,7 +4,7 @@
 
 This repository contains 1 assignment about CSS for the **Frontend Development industry training program** taught by [**Brainnest**](https://www.brainnest.consulting/).
 
-**You can visit my portfolio website by clicking [here]().**
+**You can visit this website by clicking [here]().**
 
 ---
 
@@ -56,7 +56,7 @@ This repository contains 1 assignment about CSS for the **Frontend Development i
 
 ### Clone Project from GitHub Website 📁
 
-1. Follow this link to the [Project GitHub repository]().
+1. Follow this link to the [Project GitHub repository](https://github.com/cotebarrientos/main-css-assignment).
 2. Scroll to the top of this repository and click on the "clone or download button".
 3. Decide whether you want to clone the project using HTTPS or an SSH key and do the following:
    - HTTPS: click on the checklist icon to the right of the URL.
@@ -75,7 +75,7 @@ This repository contains 1 assignment about CSS for the **Frontend Development i
 
 ### Deploy this Project using GitHub pages ✅
 
-To deploy this page to GitHub Pages from its [GitHub repository](), the following steps were taken:
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/cotebarrientos/main-css-assignment), the following steps were taken:
 
 1. Log into GitHub.
 2. Open the 'Settings' section of the project repository in GitHub.

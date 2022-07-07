@@ -44,6 +44,13 @@ body {
     margin-right: auto;
 }
 
+.container-sm {
+    width: 90%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .row {
     display: flex;
 }
@@ -70,6 +77,15 @@ body {
 
 .my-btn:hover {
     background-color: #5396FF;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Roboto-bolder', sans-serif;
 }
 
 p,
@@ -147,4 +163,33 @@ a.navbar-brand:focus,
     margin-left: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+/* Information section */
+
+#info-box {
+    height: 550px;
+    display: flex;
+}
+
+.info-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+    margin-bottom: 50px;
+}
+
+.info-img {
+    width: 200px;
+    min-height: auto;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    border: 5px solid #3882F6;
 }

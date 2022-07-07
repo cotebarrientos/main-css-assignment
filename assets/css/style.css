@@ -24,6 +24,7 @@ html,
 body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    color: #1F2937;
     margin: 0;
     padding: 0;
 }
@@ -43,12 +44,37 @@ body {
     margin-right: auto;
 }
 
+.row {
+    display: flex;
+}
+
 .bg-dark {
     background-color: #1F2937;
 }
 
 .bg-light {
     background-color: #E5E7EB;
+}
+
+.bg-primary {
+    background-color: #3882F6;
+}
+
+.my-btn {
+    background-color: #3882F6;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Roboto-Bold';
+}
+
+.my-btn:hover {
+    background-color: #5396FF;
+}
+
+p,
+figcaption {
+    font-size: 18px;
 }
 
 .navbar {
@@ -61,6 +87,7 @@ body {
     font-size: 24px;
 }
 
+.my-btn,
 a.navbar-brand,
 h1.hero-title {
     color: #F9FAF8;
@@ -75,7 +102,8 @@ a.navbar-brand,
     text-decoration: none;
 }
 
-.nav-links li a {
+.nav-links li a,
+p.hero-secondary-text {
     color: #E5E7EB;
 }
 
@@ -92,7 +120,31 @@ a.navbar-brand:focus,
     padding: 0 10px;
 }
 
-p,
-figcaption {
-    font-size: 18px;
+/* Hero Section */
+
+.hero-title {
+    font-size: 48px;
+    font-family: 'Roboto-bolder', sans-serif;
+    margin: 0;
+}
+
+#hero-box {
+    height: 600px;
+    display: flex;
+}
+
+.hero-items {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

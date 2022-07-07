@@ -11,34 +11,46 @@
             href="./assets/images/favicon.png"
             sizes="16x16"
         >
-         <!-- Font Awesome CDN -->
-         <link 
+        <!-- Font Awesome CDN -->
+        <link 
             rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
             integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
             crossorigin="anonymous" 
             referrerpolicy="no-referrer"
         >
+        <!-- CSS External File -->
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
         <title>Fitness Heroes | Homepage</title>
     </head>
     <body>
         <!-- Navbar -->
-        <header>
-            <a href="#">
-                <i class="fa-solid fa-dumbbell"></i> Fitness Heroes
-            </a>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>Our Gym</li>
-                    <li>Membership</li>
-                </ul>
-            </nav>
+        <header class="bg-dark">
+            <div class="container">
+                <div class="navbar">
+                    <a href="./index.html" class="navbar-brand">
+                        <i class="fa-solid fa-dumbbell"></i> Fitness Heroes
+                    </a>
+                    <nav>
+                        <ul class="nav-links">
+                            <li>
+                                <a href="./index.html" class="active">Home</a>
+                            </li>
+                            <li>
+                                <a href="">Our Gym</a>
+                            </li>
+                            <li>
+                                <a href="">Membership</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
 
         <!-- Hero section -->
         <section>
             <div>
-                <h1>Become The Better Version Of Yourself</h1>
+                <h1 class="hero-title">Become The Better Version Of Yourself</h1>
                 <p>
                     We are an organization of expert trainers offering both face to face training and gym memberships. Why not try our 3 days trial Membership for an 
                     engaging training experience.
@@ -80,7 +92,7 @@
         <!-- Quote section -->
         <section>
             <p>
-                I've been part of many gyms but this to be honest is the best gym I've ever been a member of.
+                <em>I've been part of many gyms but this to be honest is the best gym I've ever been a member of.</em>
             </p>
             <p>-Aoife O'Connor</p>
         </section>

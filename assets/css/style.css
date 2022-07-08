@@ -44,9 +44,16 @@ body {
     margin-right: auto;
 }
 
-.container-sm {
+.container-md {
     width: 90%;
     max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-sm {
+    width: 90%;
+    max-width: 720px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -117,6 +124,11 @@ p,
 figcaption,
 .nav-links li a {
     font-size: 18px;
+}
+
+.paragraph-lg {
+    font-size: 20px;
+    line-height: 1.5;
 }
 
 /* Navbar */
@@ -260,7 +272,7 @@ a.navbar-brand:focus,
     margin: 0;
 }
 
-#sign-up .container-sm {
+#sign-up .container-md {
     display: flex;
     justify-content: space-between;
     padding: 0 30px;
@@ -331,6 +343,25 @@ a.navbar-brand:focus,
     width: 300px;
     padding: 20px;
     border-radius: 10px;
+}
+
+/* Our Gym Page */
+
+.box-sm {
+    min-height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.about-img {
+    width: 450px;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 5px solid #3882F6;
 }
 
 /* Footer */

@@ -58,6 +58,13 @@ body {
     margin-right: auto;
 }
 
+.container-xs {
+    width: 90%;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .row {
     display: flex;
 }
@@ -130,6 +137,11 @@ figcaption,
 
 .paragraph-lg {
     font-size: 20px;
+    line-height: 1.5;
+}
+
+.paragraph-xl {
+    font-size: 23px;
     line-height: 1.5;
 }
 
@@ -484,6 +496,27 @@ a.navbar-brand:focus,
     color: #D95413;
 }
 
+#contact-box {
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
+.float-end {
+    float: right;
+}
+
+.social-icon {
+    font-size: 50px;
+    text-decoration: none;
+    color: #1F2937;
+}
+
+.social-icon:hover{
+    color: #3882F6;
+} 
 /* Footer */
 
 footer {

@@ -83,6 +83,11 @@ body {
     text-align: center;
 }
 
+.txt-light {
+    font-family: 'Roboto-lighter', sans-serif;
+    font-weight: 200;
+}
+
 h2 {
     font-size: 36px;
     font-family: 'Roboto-bolder', sans-serif;
@@ -192,4 +197,23 @@ a.navbar-brand:focus,
     border-radius: 15px;
     margin-bottom: 10px;
     border: 5px solid #3882F6;
+}
+
+/* Quote section */
+
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+#quote-box h3 {
+    font-size: 36px;
+}
+
+#quote-box p {
+    text-align: right;
+    padding-right: 10px;
 }

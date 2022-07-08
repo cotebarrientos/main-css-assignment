@@ -62,21 +62,27 @@
             <div class="container-md">
                 <div id="my-form">
                     <form action="#">
-                        <label for="name" class="paragraph-lg">First Name</label>
-                        <input type="text" id="fname" name="firstname">
+                        <label for="fname" class="paragraph-lg">
+                            First Name <span class="xmark">*</span>
+                        </label>
+                        <input type="text" id="fname" name="firstname" required>
                     
-                        <label for="lname" class="paragraph-lg">Last Name</label>
-                        <input type="text" id="lname" name="lastname">
+                        <label for="lname" class="paragraph-lg">
+                            Last Name <span class="xmark">*</span>
+                        </label>
+                        <input type="text" id="lname" name="lastname" required>
 
-                        <label for="email" class="paragraph-lg">Email</label>
-                        <input type="email" id="email" name="email">
+                        <label for="email" class="paragraph-lg">
+                            Email <span class="xmark">*</span>
+                        </label>
+                        <input type="email" id="email" name="email" required>
 
                         <p class="paragraph-lg">
                             Send Me FREE Trial Memberships and Exclusive Offers
                         </p>
-                        <input type="radio" id="yes" name="free_trial" value="yes">
+                        <input type="radio" id="yes" name="free_trial" value="yes" required>
                         <label for="yes">Yes</label><br>
-                        <input type="radio" id="no" name="free_trial" value="no">
+                        <input type="radio" id="no" name="free_trial" value="no" required>
                         <label for="no">No</label><br>
                     
                         <input 
@@ -85,6 +91,171 @@
                             class="paragraph-lg"
                         >
                     </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Plans section -->
+        <section class="container">
+            <h2 class="txt-center">Check out our all inclusive packages.</h2>
+            <p class="paragraph-lg">
+                With all our memberships you will receive every eight weeks a consultation program (45min), one free 
+                review (30min), check-up progress reports to make sure your goals are moving forward. These programs 
+                are designed to monitor your progress to your individual needs.
+            </p>
+
+            <!-- Plan 1 -->
+            <div class="container-sm">
+                <div class="plan-info">
+                    <h3 class="plan-info__title">
+                        <i class="fa-solid fa-spa orange-icon"></i> All Inclusive
+                    </h3>
+                    <h4 class="plan-info__price">€55</h4>
+                    <ul class="fa-ul">
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            Unlimited classes
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            Unlimited Gym Access
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            8 Week Consultation Program
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>Eating Plan
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Plan 2 -->
+            <div class="container-sm">
+                <div class="plan-info">
+                    <h3 class="plan-info__title">
+                        <i class="fa-solid fa-spa orange-icon"></i> Only Gym
+                    </h3>
+                    <h4 class="plan-info__price">€45</h4>
+                    <ul class="fa-ul">
+                        <li>
+                            <span class="fa-li xmark">
+                                <i class="fa-solid fa-square-xmark"></i>
+                            </span>
+                            Unlimited classes
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            Unlimited Gym Access
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            8 Week Consultation Program
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            Eating Plan
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Plan 3 -->
+            <div class="container-sm">
+                <div class="plan-info">
+                    <h3 class="plan-info__title">
+                        <i class="fa-solid fa-spa orange-icon"></i> Discount (students and over 60's)
+                    </h3>
+                    <h4 class="plan-info__price">€40</h4>
+                    <ul class="fa-ul">
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>Unlimited classes
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>Unlimited Gym Access
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            8 Week Consultation Program
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            Eating Plan
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Plan 4 -->
+            <div class="container-sm">
+                <div class="plan-info">
+                    <h3 class="plan-info__title">
+                        <i class="fa-solid fa-spa orange-icon"></i> Off Peak (from 6:30am till 4pm)
+                    </h3>
+                    <h4 class="plan-info__price">€50</h4>
+                    <ul class="fa-ul">
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            Unlimited classes
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            Unlimited Gym Access
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            8 Week Consultation Program
+                        </li>
+                        <li>
+                            <span class="fa-li check">
+                                <i class="fa-solid fa-square-check"></i>
+                            </span>
+                            Eating Plan
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Plan 5 -->
+            <div class="container-sm">
+                <div class="plan-info">
+                    <h3 class="plan-info__title">
+                        <i class="fa-solid fa-spa orange-icon"></i> 3 Days Trial Member
+                    </h3>
+                    <h4 class="plan-info__price">Free</h4>
+                    <p>
+                        Why not try the gym or a class before you commit? Complete the form above and book a class or simply 
+                        come to the front desk for a tour of the gym and start participating today.
+                    </p>
                 </div>
             </div>
         </section>

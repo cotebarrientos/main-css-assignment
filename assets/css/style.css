@@ -123,7 +123,8 @@ h2 {
 
 p,
 figcaption,
-.nav-links li a {
+.nav-links li a,
+.plan-info ul li {
     font-size: 18px;
 }
 
@@ -339,6 +340,11 @@ a.navbar-brand:focus,
     right: 0;
 }
 
+#banner_membership h2,
+#banner_our-gym h2 {
+    font-size: 40px;
+}
+
 .jumbotron {
     background-color: rgba(10, 99, 233, 0.6);
     width: 300px;
@@ -416,8 +422,13 @@ a.navbar-brand:focus,
     border-radius: 8px;
 }
 
+.title-box h2 i {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 #my-form {
-    height: 700px;
+    height: 650px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -440,9 +451,39 @@ a.navbar-brand:focus,
     width: 100%;
     padding: 12px 20px;
     text-decoration: none;
-    margin: 60px 0;
-  }
-  
+    margin: 60px 0 30px;
+}
+
+.plan-info {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    min-height: 200px;
+    margin: 50px 0;
+    padding: 0 20px 15px;
+}
+
+.plan-info__title {
+    font-size: 28px;
+    font-family: 'Roboto-bold', sans-serif;
+}
+
+.plan-info__price {
+    font-size: 25px;
+    color: #073E93;
+}
+
+.check {
+    color: #4CAF50;
+}
+
+.xmark {
+    color: #9F0E0E;
+}
+
+.orange-icon {
+    color: #D95413;
+}
+
 /* Footer */
 
 footer {

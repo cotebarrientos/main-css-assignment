@@ -67,16 +67,36 @@ body {
     background-color: #3882F6;
 }
 
+.txt-extra-light-color {
+    color: #F9FAF8;
+}
+
+.txt-light-color {
+    color: #E5E7EB;
+}
+
 .my-btn {
     background-color: #3882F6;
+    color: #F9FAF8;
     padding: 10px 30px;
     border-radius: 10px;
     text-decoration: none;
     font-family: 'Roboto-Bold';
 }
 
-.my-btn:hover {
+.my-btn:hover,
+.my-btn-outline:hover {
     background-color: #5396FF;
+}
+
+.my-btn-outline {
+    background-color: transparent;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: 'Roboto-Bold';
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
 }
 
 .txt-center {
@@ -94,7 +114,8 @@ h2 {
 }
 
 p,
-figcaption {
+figcaption,
+.nav-links li a {
     font-size: 18px;
 }
 
@@ -108,12 +129,6 @@ figcaption {
     font-size: 24px;
 }
 
-.my-btn,
-a.navbar-brand,
-h1.hero-title {
-    color: #F9FAF8;
-}
-
 .nav-links {
     list-style: none;
 }
@@ -121,11 +136,6 @@ h1.hero-title {
 a.navbar-brand,
 .nav-links li a {
     text-decoration: none;
-}
-
-.nav-links li a,
-p.hero-secondary-text {
-    color: #E5E7EB;
 }
 
 a.navbar-brand:hover,
@@ -206,14 +216,64 @@ a.navbar-brand:focus,
     flex-direction: column;
     height: 400px;
     justify-content: center;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 #quote-box h3 {
-    font-size: 36px;
+    font-size: 36px;;
 }
 
 #quote-box p {
     text-align: right;
-    padding-right: 10px;
+    padding-right: 20px;
+}
+
+/* Sign up section */
+
+#sign-up {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-width: 1320px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 0 30px;
+}
+
+#sign-up .sign-up-box h3 {
+    font-size: 23px;
+    margin: 0;
+}
+
+#sign-up .sign-up-box p {
+    margin: 0;
+}
+
+#sign-up .container-sm {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.item-col-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+}
+
+.item-col-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
 }

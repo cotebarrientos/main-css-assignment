@@ -153,7 +153,6 @@ a.navbar-brand:focus,
     padding: 0 10px;
 }
 
-/* Home Page */
 /* Hero Section */
 
 .hero-title {
@@ -279,6 +278,59 @@ a.navbar-brand:focus,
     flex-direction: column;
     justify-content: center;
     align-items: end;
+}
+
+/* Banner */
+
+#banner_membership {
+    background: url("../images/banner-002.jpg") no-repeat center center fixed;
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#banner_our-gym {
+    background: url("../images/banner-001.jpg") no-repeat center center fixed;
+    height: 350px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.jumbotron {
+    background-color: rgba(10, 99, 233, 0.6);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 /* Footer */

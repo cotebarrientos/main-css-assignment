@@ -119,6 +119,8 @@ figcaption,
     font-size: 18px;
 }
 
+/* Navbar */
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -151,6 +153,7 @@ a.navbar-brand:focus,
     padding: 0 10px;
 }
 
+/* Home Page */
 /* Hero Section */
 
 .hero-title {
@@ -276,4 +279,14 @@ a.navbar-brand:focus,
     flex-direction: column;
     justify-content: center;
     align-items: end;
+}
+
+/* Footer */
+
+footer {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }

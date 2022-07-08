@@ -92,7 +92,8 @@ body {
 }
 
 .my-btn:hover,
-.my-btn-outline:hover {
+.my-btn-outline:hover,
+#my-form input[type=submit]:hover {
     background-color: #5396FF;
 }
 
@@ -405,6 +406,43 @@ a.navbar-brand:focus,
     border: 5px solid #3882F6;
 }
 
+/* Membership Page */
+
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    border-radius: 8px;
+}
+
+#my-form {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+#my-form input[type=text],
+#my-form input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0 15px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#my-form input[type=submit] {
+    background-color: #3882F6;
+    border: none;
+    color: #F9FAF8;
+    width: 100%;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 60px 0;
+  }
+  
 /* Footer */
 
 footer {

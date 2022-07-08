@@ -345,6 +345,15 @@ a.navbar-brand:focus,
     border-radius: 10px;
 }
 
+.jumbotron-txt {
+    background-color: rgba(62, 138, 253, 0.6);
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Our Gym Page */
 
 .box-sm {
@@ -361,6 +370,38 @@ a.navbar-brand:focus,
     height: auto;
     border-radius: 15px;
     margin-bottom: 20px;
+    border: 5px solid #3882F6;
+}
+
+#gym-classes {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym-class {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: start;
+    justify-content: center;
+}
+
+.gym-class-img {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center; 
+}
+
+.class-img {
+    width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 15px;
     border: 5px solid #3882F6;
 }
 

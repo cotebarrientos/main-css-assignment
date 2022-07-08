@@ -188,7 +188,7 @@ a.navbar-brand:focus,
 }
 
 #hero-box {
-    height: 600px;
+    min-height: 600px;
     display: flex;
 }
 
@@ -211,7 +211,7 @@ a.navbar-brand:focus,
 /* Information section */
 
 #info-box {
-    height: 550px;
+    min-height: 550px;
     display: flex;
 }
 
@@ -260,7 +260,7 @@ a.navbar-brand:focus,
 
 #sign-up {
     display: flex;
-    height: 350px;
+    min-height: 350px;
     justify-content: center;
     align-items: center;
 }
@@ -366,8 +366,8 @@ a.navbar-brand:focus,
 
 .jumbotron-txt {
     background-color: rgba(62, 138, 253, 0.6);
-    width: 600px;
-    padding: 20px;
+    max-width: 600px;
+    padding: 20px 20px 30px;
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
@@ -525,4 +525,257 @@ footer {
     flex-direction: column;
     text-align: center;
     justify-content: center;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1180px) {
+    #hero-box .hero-title {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    #hero-box .hero-img {
+        width: 450px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    #info-box {
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;  
+        margin-bottom: 50px;
+    }
+    #info-box .info-img {
+        width: 400px;
+        min-height: auto;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        border: 5px solid #3882F6;
+    }    
+}
+
+@media only screen and (max-width: 960px) {
+    h2 {
+        font-size: 28px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navbar-brand {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+    #hero-box {
+        display: flex;
+        flex-direction: column;
+    }
+    #hero-box .row {
+        display: flex;
+        flex-direction: column;
+    }
+    #hero-box .hero-items {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+        justify-content: center;
+    }
+    #hero-box .hero-title {
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    #hero-box .hero-img {
+        width: 450px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    #info-box {
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;  
+        margin-bottom: 50px;
+    }
+    #info-box .info-img {
+        width: 350px;
+        min-height: auto;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        border: 5px solid #3882F6;
+    }
+    #sign-up {
+        display: flex;
+        flex-direction: column;
+        min-height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sign-up-box {
+        display: flex;
+        min-height: 200px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sign-up .container-md {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    #sign-up .item-col-end {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .title-box h2 i {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    h2 {
+        font-size: 25px;
+    }
+    #hero-box {
+        display: flex;
+        flex-direction: column;
+    }
+    #hero-box .row {
+        display: flex;
+        flex-direction: column;
+    }
+    #hero-box .hero-items {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: start;
+        justify-content: center;
+    }
+    #hero-box .hero-title {
+        font-size: 35px;
+        padding-top: 50px;
+    }
+    #hero-box .hero-img {
+        width: 350px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+    #info-box {
+        min-height: 550px;
+        display: flex;
+        flex-direction: column;
+    }
+    .images-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;  
+        margin-bottom: 50px;
+    }
+    #info-box .info-img {
+        width: 300px;
+        min-height: auto;
+        border-radius: 15px;
+        margin-bottom: 10px;
+        border: 5px solid #3882F6;
+    }
+    #sign-up {
+        display: flex;
+        flex-direction: column;
+        min-height: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .sign-up-box {
+        display: flex;
+        min-height: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #sign-up .container-md {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px;
+    }
+    #sign-up .item-col-end {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .container-sm .about-img {
+        width: 300px;
+        height: auto;
+        border-radius: 15px;
+        margin-bottom: 20px;
+        border: 5px solid #3882F6;
+    }
+    #gym-classes .gym-class {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #gym-classes .gym-class-img {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #gym-classes .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #gym-classes .class-img {
+        width: 300px;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 15px;
+        border: 5px solid #3882F6;
+    }
+    .paragraph-lg {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
+    .paragraph-xl {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    .title-box h2 i {
+        display: none;
+    }
 }

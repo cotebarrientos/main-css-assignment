@@ -629,6 +629,7 @@ footer {
         min-height: 200px;
         justify-content: center;
         align-items: center;
+        margin: 30px 0;
     }
     .sign-up-box {
         display: flex;

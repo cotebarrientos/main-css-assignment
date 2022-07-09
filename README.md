@@ -91,6 +91,34 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 
 ### Content
 
+The content used for this website was consulted from these resources
+
+- [Better Body Gym](https://betterbody.ie/)
+- [West Wood Club](https://westwood.ie/)
+
 ### Media
 
+The images used in this project were obtained mainly from these sources:
+
+- [Unsplash](https://unsplash.com/)
+- [Better Body Gym website](https://betterbody.ie/)
+- [Iconfinder](https://www.iconfinder.com/)
+
+Most of the images used were edited and enhanced using Photoshop.
+
 ### Code
+
+These websites were really useful to troubleshooting the issues I faced:
+
+- [w3schools](https://www.w3schools.com/)
+- [Stackoverflow](https://stackoverflow.com/)
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+These YouTube channels were very helpful to guide me during the development of this project, mainly everything related to FlexBox.
+
+- [Wes Bos](https://www.youtube.com/playlist?list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid)
+- [Bluuweb](https://www.youtube.com/c/Bluuweb/playlists)
+
+[**Back to top**](#contents)
+
+---

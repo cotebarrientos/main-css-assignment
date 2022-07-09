@@ -50,6 +50,42 @@ this course. The template simulates the requirements of a hypothetical client.
 
 ## Features
 
+The website has the following features:
+
+1. **Navigation bar:** Contains the company logo and three links that will take you to the following pages:
+
+   - Home
+   - Our Gym
+   - Membership
+
+2. **Footer:** Contains the website's copyright information.
+
+3. **Home Page:** This is the starting page of this website and it consists of the following sections:
+
+   - Hero: contains a summary of what the website offers, plus a button to try the gym's membership plus an image.
+   - Information: this section shows in pictures all what this gym has to offer to future customers.
+   - Quote: this section shows a customer's review about the service provided by the company.
+   - Sign up: this little section is in charge of emphasizing the importance of future users to join this gym.
+
+4. **Our Gym Page:** This is the one in charge of talking a little more about the company, and it is also composed of
+   the following sections:
+
+   - Banner : which contains a background image and the page title.
+   - Information about the gym : It is in charge of presenting this company, as well as showing its mission and philosophy.
+   - Classes: this section shows all the classes the gym offers, each one with an image and a description.
+
+5. **Membership Page:** this page invites prospective users to try the services offered by this fitness center, in addition
+   to displaying contact information. This page is composed of:
+
+   - Banner : which contains a background image and page title.
+   - FREE Trial Memberships : This is composed of a form which users must fill out to request their free trial.
+   - Plans: this section shows all the plans and prices offered by the gym.
+   - Contact: Shows information about the opening hours as well as ways to contact the company, either by phone, email or social networks
+
+**Project Structure**
+
+<img src="https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/project-structure.jpg?raw=true" alt="Project structure" width="300">
+
 ## Technologies Used
 
 ### Languages

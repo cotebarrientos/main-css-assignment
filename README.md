@@ -4,7 +4,8 @@
 
 ![Mockups](https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/fitness-heroes-img.png?raw=true)
 
-This repository contains 1 assignment about CSS for the **Frontend Development industry training program** taught by [**Brainnest**](https://www.brainnest.consulting/).
+This repository contains 1 assignment about CSS for the **Frontend Development industry training program**
+taught by [**Brainnest**](https://www.brainnest.consulting/).
 
 **You can visit this website by clicking [here](https://cotebarrientos.github.io/main-css-assignment/index.html).**
 
@@ -31,6 +32,21 @@ This repository contains 1 assignment about CSS for the **Frontend Development i
 ---
 
 ## Project Purpose
+
+The main goal of this project is to test your knowledge of CSS and create a web site of
+maximum 3 pages that is as close as possible to the template presented by the mentor of
+this course. The template simulates the requirements of a hypothetical client.
+
+|                                                  Mentor's Template                                                   |                                                                  My Version                                                                   |
+| :------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |
+| ![Mentor Example](https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/website-template.jpg?raw=true) | <img src="https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/template-my-version.jpg?raw=true" alt="My version" width="700"> |
+
+**Color Scheme**
+
+|                                          Background and Text                                           |                               Background, Hero secondary text and links                                |                                             Hero Main text                                             |                                         Background and button                                          |
+| :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------: |
+| ![#1F2937](https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/%231f2937.png?raw=true) | ![#E5E7EB](https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/%23e5e7eb.png?raw=true) | ![#F9FAF8](https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/%23f9faf8.png?raw=true) | ![#3882F6](https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/%233882f6.png?raw=true) |
+|                                                #1F2937                                                 |                                                #E5E7EB                                                 |                                                #F9FAF8                                                 |                                                #3882F6                                                 |
 
 ## Features
 

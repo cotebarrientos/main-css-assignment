@@ -1,10 +1,12 @@
-# CSS Main Assignment
+# CSS Main Assignment: Fitness Heroes Gym
 
 ## Brainnest: Frontend Development Industry Training
 
+![Mockups](https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/fitness-heroes-img.png?raw=true)
+
 This repository contains 1 assignment about CSS for the **Frontend Development industry training program** taught by [**Brainnest**](https://www.brainnest.consulting/).
 
-**You can visit this website by clicking [here]().**
+**You can visit this website by clicking [here](https://cotebarrientos.github.io/main-css-assignment/index.html).**
 
 ---
 

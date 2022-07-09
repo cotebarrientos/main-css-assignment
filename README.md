@@ -141,6 +141,34 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 
 ## Testing
 
+### Validation Services
+
+#### HTML 5
+
+I used <a href="https://validator.w3.org/" target="_blank">W3C HTML Validator</a> to validate my HTML files by direct input.
+
+- All **.html** files were tested and no errors were found.
+
+#### CSS
+
+I used <a href="https://jigsaw.w3.org/css-validator/validator.html.en" target="_blank">W3C CSS Validator</a> to validate my CSS files by direct input.
+
+- All the **.css** files were checked.
+- All the **.css** passed without an **error**.
+
+### Chrome's DevTools Lighthouse Report
+
+The website is performing quite well as reported by this tool.
+![Chrome's DevTools Lighthouse Report](https://github.com/cotebarrientos/main-css-assignment/blob/main/doc/lighthouse-report.jpg?raw=true)
+
+### Links and Buttons
+
+In this test, all buttons and links were tested to ensure that all buttons and links worked
+correctly, and that no links were broken.
+
+**keep in mind:** The form on the membership page does not work because this project only contains css and
+html.
+
 ## Credits
 
 ### Content
